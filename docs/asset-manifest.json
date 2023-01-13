@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/spp-test-deploy/static/css/main.073c9b0a.css",
+    "main.js": "/spp-test-deploy/static/js/main.38b7393f.js",
+    "static/js/787.6c2e39d8.chunk.js": "/spp-test-deploy/static/js/787.6c2e39d8.chunk.js",
+    "static/media/logo.svg": "/spp-test-deploy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/spp-test-deploy/index.html",
+    "main.073c9b0a.css.map": "/spp-test-deploy/static/css/main.073c9b0a.css.map",
+    "main.38b7393f.js.map": "/spp-test-deploy/static/js/main.38b7393f.js.map",
+    "787.6c2e39d8.chunk.js.map": "/spp-test-deploy/static/js/787.6c2e39d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.38b7393f.js"
+  ]
+}
