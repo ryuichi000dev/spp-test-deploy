@@ -34,7 +34,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="https://github.com/ryuichi000dev/shadowing-player-plus"
             sx={{
               mr: 2,
               display: { md: 'flex' },

@@ -378,15 +378,15 @@ export default function MusicPlayerSlider() {
   }, [loadedFlg]);
 
   const [playList, setPlayList] = useState([
-    { name: "curry.mp3", path: "./audiomaterial/curry.mp3" },
+    { name: "excuse-me.mp3", path: "./audiomaterial/excuse-me.mp3" },
   ]);
   const [teachingAudio, setTeachingAudio] = useState({
-    name: "curry.mp3",
-    path: "./audiomaterial/curry.mp3",
+    name: "excuse-me.mp3",
+    path: "./audiomaterial/excuse-me.mp3",
   });
   const [sampleAudio, setSampleAudio] = useState({
-    name: "curry.mp3",
-    path: "./audiomaterial/curry.mp3",
+    name: "excuse-me.mp3",
+    path: "./audiomaterial/excuse-me.mp3",
   });
 
   const handleInputAudio = (e) => {
@@ -831,7 +831,6 @@ export default function MusicPlayerSlider() {
           教材を選択
           <input
             hidden
-            accept="audio/*"
             multiple
             type="file"
             onChange={handleInputAudio}
@@ -876,7 +875,7 @@ export default function MusicPlayerSlider() {
         ref={teachingAudioRef}
         volume={0.4}
       ></audio>
-      <audio id="recAudio" controls></audio>
+      <audio id="recAudio"></audio>
     </Box>
   );
 }
