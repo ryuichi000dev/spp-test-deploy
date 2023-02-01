@@ -872,6 +872,7 @@ export default function MusicPlayerSlider() {
         id="teachingAudio"
         onLoadedMetadata={handleLoaded}
         onEnded={handleEnded}
+        onSuspend={alert("この音声ファイルは使用できません")}
         src={teachingAudio.path}
         ref={teachingAudioRef}
         volume={0.4}
