@@ -204,6 +204,7 @@ export default function MusicPlayerSlider() {
       })
       .catch(function (err) {
         console.log(err);
+        alert("マイクに接続できませんでした。デバイスとブラウザの設定を確認してください")
       });
 
     // teachingAudioRef.current.src = "./audiomaterial/excuseme.mp3";
